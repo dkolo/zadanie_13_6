@@ -8,7 +8,7 @@ fs.readdir('./', 'utf-8', function(err, files) {
         if (err) throw err;
         console.log('Zapisano zawartość folderu!'.blue);
         fs.readFile('./message.txt', 'utf-8', function(err, data) {
-            console.log('Zawartość pliku content.txt'.blue)
+            console.log('Zawartość pliku content.txt'.blue);
             console.log(files);
         });
     });
