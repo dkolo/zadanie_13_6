@@ -1,0 +1,22 @@
+{
+  "name": "zadanie-13-5",
+  "version": "1.0.0",
+  "description": "package.json test file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "'npm'",
+    "'node'",
+    "'node",
+    "package",
+    "manager'"
+  ],
+  "author": "domin",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.0"
+  }
+}
